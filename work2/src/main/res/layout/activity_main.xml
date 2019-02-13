@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆型图" />
+
+        <Button
+            android:id="@+id/btn_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆角7DP" />
+
+        <Button
+            android:id="@+id/btn_bili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="宽高比" />
+
+        <Button
+            android:id="@+id/btn_gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载动画" />
+
+    </LinearLayout>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simple"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_zhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取注解的值"/>
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="反射添加集合"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

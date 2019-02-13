@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆角" />
+
+        <Button
+            android:id="@+id/btn_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆形" />
+
+        <Button
+            android:id="@+id/btn_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="比例1.2" />
+
+        <Button
+            android:id="@+id/btn_jian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="渐进式" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="磁盘缓存" />
+
+        <Button
+            android:id="@+id/btn_gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载动图" />
+
+        <Button
+            android:id="@+id/btn_lisener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载监听" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="配置OKHTTP" />
+
+    </LinearLayout>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simple"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>
